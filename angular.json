@@ -121,8 +121,16 @@
               "devServerTarget": "simply-value-st:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "simply-value-st"
+    }
+  },
+  "defaultProject": "simply-value-st",
+  "cli": {
+    "analytics": "44385f61-55f5-42cf-9508-e2db234bae6d"
+  }
 }
